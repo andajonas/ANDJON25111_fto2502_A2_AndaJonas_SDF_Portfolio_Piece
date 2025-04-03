@@ -3,7 +3,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background: #d3d3d3;
+    background: #f4f4f4;
 }
 
 .container {
@@ -21,8 +21,6 @@ body {
     padding: 20px;
     background: white;
     border-radius: 10px;
-    line-height: 24px;
-
 }
 
 .profile-pic {
@@ -99,6 +97,8 @@ body {
     padding: 10px;
     border-radius: 5px;
     margin-bottom: 10px;
+    width: 540px;
+    height: 160px;
 }
 
 /* Experience Section */
