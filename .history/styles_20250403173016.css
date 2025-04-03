@@ -1,0 +1,127 @@
+/* General Layout */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* Profile Section */
+.profile {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+}
+
+.profile-pic {
+    width: 144px;
+    height: 144px;
+    border-radius: 24px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+/* Skills Section */
+.skills-container {
+    display: flex;
+    gap: 20px;
+}
+
+.proficiency, .skills {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    width: 50%;
+}
+
+.bar {
+    width: 100%;
+    height: 5px;
+    background: #ddd;
+    margin-bottom: 10px;
+}
+
+.progress {
+    height: 5px;
+    background: green;
+}
+
+.skill-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.skill-item {
+    background: #ecf4f1;
+    padding: 8px 14px;
+    border-radius: 6px;
+    font-size: 14px;
+    display: inline-block;
+}
+
+/* Projects Section */
+.projects {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    display: grid;
+}
+
+.project-card {
+    background: #ffffff;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+/* Experience Section */
+.experience {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.experience-card {
+    background: #f3f3f3;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.green {
+    background: #d5f5e3;
+    border-left: 5px solid #4caf50;
+}
+
+.tag {
+    background: #ff6347;
+    color: white;
+    padding: 3px 6px;
+    border-radius: 5px;
+}
+
+/* Contact Section */
+.contact {
+    background: #d35d36;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.contact-links a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}

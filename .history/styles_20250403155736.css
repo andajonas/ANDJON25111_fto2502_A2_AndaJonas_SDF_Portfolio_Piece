@@ -1,0 +1,131 @@
+/* Global Styles */
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+  
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url('background\ img.png');
+    background-size: cover; /* This ensures the image covers the whole screen */
+    background-position: center; /* Centers the image */
+    background-attachment: fixed; /* Makes the background image fixed when scrolling */
+      
+  }
+  
+  /* Card Layout */
+  .container {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+  }
+  
+  .card {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+/* Profile Section */
+.profile {
+    display: grid;
+    grid-template-columns: 80% 20%; /* 80% for the text, 20% for the image */
+    gap: 20px;
+    align-items: center;
+    padding: 40px;
+  }
+  
+  .profile-left {
+    /* No specific styles needed here, it takes up 80% */
+  }
+  
+  .profile-right {
+    display: flex;
+    justify-content: flex-start; /* Aligns the image to the left */
+  }
+  
+  .profile-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+  }
+  
+  /* Sections */
+  .section-title {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  
+  /* Proficiency Bars */
+  .proficiency-bars {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .proficiency-bar {
+    background: #ddd;
+    height: 8px;
+    border-radius: 5px;
+    position: relative;
+  }
+  
+  .bar {
+    height: 100%;
+    background: #007bff;
+    border-radius: 5px;
+  }
+  
+  /* Skills Tags */
+  .skills-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .skill-tag {
+    background: #007bff;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  /* Project Cards */
+  .projects-list {
+    display: grid;
+    gap: 20px;
+  }
+  
+  .project-card {
+    background: #f9f9f9;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Contact Section */
+  .contact {
+    text-align: center;
+    padding: 20px;
+    background: #d76239;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    justify-content: space-between;
+  }
+  
+  .contact a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  

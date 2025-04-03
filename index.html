@@ -1,180 +1,167 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Anda's Resume</title>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Developer Resume</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    
- <!-- Header Section: Name and Bio -->
- <header class="profile">
-    <img src="profile.jpg" alt="Profile Picture" class="profile-img">
-    <div class="profile-info">
-      <h1 class="name">Anda Jonas</h1>
-      <p class="bio"> I am a beginner Software Developer passionate about building clean and responsive websites that are aesthetically pleasing as well as functional. I am always seeking to refine my skills and stay up to date with the latest trends. </p>
-    </div>
-</header>
 
-  <!-- Proficiency Section -->
-  <section class="proficiency">
-    <h2 class="section-title">Proficiency</h2>
-    <div class="proficiency-bars">
-      <article class="proficiency-bar">
-        <span class="level">Beginner</span>
-        <div class="bar" style="width: 30%;"></div>
-      </article>
-      <article class="proficiency-bar">
-        <span class="level">Intermediate</span>
-        <div class="bar" style="width: 60%;"></div>
-      </article>
-      <article class="proficiency-bar">
-        <span class="level">Advanced</span>
-        <div class="bar" style="width: 90%;"></div>
-      </article>
-    </div>
-  </section>
+<div class="container">
+    <!-- Profile Section -->
+    <section class="profile">
+        <img src="profile.jpg" alt="Profile Picture" class="profile-pic">
+        <div class="profile-info">
+            <h1>Anda Jonas</h1>
+            <p>I am a beginner Software Developer passionate about building clean and responsive websites that are aesthetically pleasing as well as functional. I am always seeking to refine my skills and stay up to date with the latest trends.</p>
+        </div>
+    </section>
 
-<!-- Skills Section -->
-<section class="skills">
-    <h2 class="section-title">Skills</h2>
-    <div class="skills-tags">
-        <span class="skill-tag">Problem Solving</span>
-        <span class="skill-tag">Team Collaboration</span>
-        <span class="skill-tag">Git and Version Control</span>
-        <span class="skill-tag">Adaptability</span>
-        <span class="skill-tag">Communication Skills</span>
-    </div>
-</section>
+    <!-- Proficiency and Skills Section -->
+    <section class="skills-container">
+        <div class="proficiency">
+            <h2>Proficiency</h2>
+            <p><strong>Beginner Intermediate Advanced</strong></p>
+            <p>JavaScript</p><div class="bar"><div class="progress" style="width: 10%;"></div></div>
+            <p>React</p><div class="bar"><div class="progress" style="width: 10%;"></div></div>
+            <p>Node.js</p><div class="bar"><div class="progress" style="width: 10%;"></div></div>
+            <p>HTML + CSS</p><div class="bar"><div class="progress" style="width: 30%;"></div></div>
+        </div>
 
- <!-- Projects Section -->
- <section class="projects">
-    <h2 class="section-title">Projects</h2>
-    <div class="projects-list">
-        <article class="project-card highlighted">
-          <h3 class="project-year">2025</h3>
-          <h3>Portfolio Website</h3>
-          <p class="brief-description">Developed a personal portfolio website to showcase projects and skills</p>
-          <p>Technologies: HTML and CSS</p>
-          <p>Responsibilities: Designed and implemented the website, ensured responsiveness and accessibility</p>
-       </article>
-       <article class="project card">
-        <h3 class="project-year">2025</h3>
-          <h3>CS Pets Instagram Profile</h3>
-          <p class="brief-description">Created a clean and visually engaging Instagram style profile page</p>
-          <p>Technologies: HTML and CSS</p>
-          <p>Responsibilities: Designed an Instagram profile page that was interactive and replicates a real life profile page showing the likes and comments on a picture </p>
-       </article>
-       <article class="project card">
-        <h3 class="project-year">2025</h3>
-          <h3>HTML Responsive Footer</h3>
-          <p class="brief-description">Created a fully responsive footer that adapts to different screen sizes</p>
-          <p>Technologies: HTML and CSS</p>
-          <p>Responsibilities: Designed and implemented the footer, ensured responsiveness and accessibility</p>
-       </article>
-       <article class="project card">
-        <h3 class="project-year">2025</h3>
-          <h3>Responsive Footer design with Tailwind CSS</h3>
-          <p class="brief-description">Created a responsive footer using HTML and Tailwind CSS</p>
-          <p>Technologies: HTML and Tailwind CSS</p>
-          <p>Responsibilities: Designed a footer that contains different sections with links that can provide more information and styled it using Tailwind CSS.</p>
-       </article>
-    </div>
-</section>
+        <div class="skills">
+            <h2>Skills</h2>
+            <div class="skill-tags">
+                <span class="skill-item">Software Development</span>
+                <span class="skill-item">Agile</span>
+                <span class="skill-item">UI Design</span>
+                <span class="skill-item">Problem Solving</span>
+                <span class="skill-item">Git And Version Control</span>
+                <span class="skill-item">Web Development</span>
+                <span class="skill-item">Team Collaboration</span>
+                <span class="skill-item">Functional Programming</span>
+                <span class="skill-item">RESTful APIs</span>
+            </div>
+        </div>
+    </section>
 
-  <!-- Education Section -->
-  <section class="education">
-    <h2 class="section-title">Education</h2>
-    <article class="education-card latest">
-        <h3 class="dates">Feb 2025 - Currently</h3>
-        <p class="institution">CodeSpace Academy</p>
-        <p class="qualification">Software Development</p>
-        <p>Full time</p>
-        <ul>
-            <li>Gained hands-on experience with web technologies and development tools</li>
-            <li>Enhanced Tech skills in learning relevant languages such as HTML, CSS and soon JavaScript</li>
-        </ul>
-    </article>
+    <!-- Projects Section -->
+    <section class="projects">
+        <h2>Projects</h2>
+        <div class="project-card">
+            <h3>2025 ❤️ Portfolio Website</h3>
+            <p><strong>Brief:</strong> Developed a personal portfolio website to showcase projects and skills.</p>
+            <p><strong>Technologies:</strong> React, JavaScript, HTML, CSS</p>
+            <p><strong>Responsibilities:</strong> Designed and implemented the website, ensured responsiveness and accessibility.</p>
+        </div>
+
+        <div class="project-card">
+            <h3>2025 ❤️ Podcast App</h3>
+            <p><strong>Brief:</strong> Developed a podcast application that allows users to search, subscribe, and listen to various podcasts.</p>
+            <p><strong>Technologies:</strong> React, Tailwind, HTML, CSS</p>
+            <p><strong>Responsibilities:</strong> Implemented search functionality, an audio player with playback controls, and integrated backend API.</p>
+        </div>
+
+        <div class="project-card">
+            <h3>2025 ❤️ Podcast App</h3>
+            <p><strong>Brief:</strong> Developed a podcast application that allows users to search, subscribe, and listen to various podcasts.</p>
+            <p><strong>Technologies:</strong> React, Tailwind, HTML, CSS</p>
+            <p><strong>Responsibilities:</strong> Implemented search functionality, an audio player with playback controls, and integrated backend API.</p>
+        </div>
+
+        <div class="project-card">
+            <h3>2025 ❤️ Podcast App</h3>
+            <p><strong>Brief:</strong> Developed a podcast application that allows users to search, subscribe, and listen to various podcasts.</p>
+            <p><strong>Technologies:</strong> React, Tailwind, HTML, CSS</p>
+            <p><strong>Responsibilities:</strong> Implemented search functionality, an audio player with playback controls, and integrated backend API.</p>
+        </div>
+    </section>
+
+    <!-- Education Section -->
     <section class="education">
-        <article class="education-card latest">
-            <h3 class="dates">Jan 2021 - Dec 2022</h3>
-            <p class="institution">iStudent Academy</p>
-            <p class="qualification">IT Engineering </p>
-            <p>Full time</p>
+        <h2>Education</h2>
+        <div class="education-card green">
+            <div class="exp-header">
+                <p class="date">Feb. 2025 - Currently</p>
+                <span class="tag">Most Recent</span>
+            </div>
+            <h3>CodeSpace Academy</h3>
+            <p class="company">Software Development | Full-time</p>
+            <ul>
+                <li>Gained hands-on experience with web technologies and development tools</li>
+                 <li>Enhanced Tech skills in learning relevant languages such as HTML, CSS and soon JavaScript</li>
+        </div>
+
+        <div class="education-card">
+            <p class="date">Jan. 2021 - Dec. 2022</p>
+            <h3>iStudent Academy</h3>
+            <p class="company">IT Engineering | Full-time</p>
             <ul>
                 <li>Gained an understanding of Programming and Networking</li>
                 <li>Focused on technical and programming skills to gain a wider range of IT skills</li>
             </ul>
-        </article>
-        <section class="education">
-            <article class="education-card latest">
-                <h3 class="dates">Jan 2016 - Dec 2020</h3>
-                <p class="institution">De Villiers Graaff High School</p>
-                <p class="qualification">Matric | NQF Level 4</p>
-                <p>Full time</p>
-                <ul>
-                    <li>Built core academic skills and developed a passion for problem-solving</li>
-                    <li>Participated in school projects that honed creative an analytical thinking</li>
-                </ul>
-            </article>
-             
-            <!-- Tools Section -->
-  <section class="tools">
-    <h2 class="section-title">Tools</h2>
-    <div class="tool-category">
-      <h3>Design</h3>
-      <div class="tool-icons">
-        <img src="tool1.png" alt="Tool 1">
-        <img src="tool2.png" alt="Tool 2">
-      </div>
-    </div>
-    
-    <!--Experience Section-->
+        </div>
+        <div class="education-card">
+            <p class="date">Jan. 2015 - Dec. 2020</p>
+            <h3>De Villiers Graaff High School</h3>
+            <p class="company">Matric | NQF Level 4</p>
+            <ul>
+                <li>Built core academic skills and developed a passion for problem-solving</li>
+                <li>Participated in school projects that honed creative an analytical thinking</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
     <section class="experience">
-        <h2 class="section-title">Experience</h2>
-        <article class="experience-card latest">
-            <h3 class="dates">Sep 2024 - Jan 2025 </h3>
-            <p class="role">Customer Service Representative</p>
-            <p class="company-name">Amazon | Full-time</p>
+        <h2>Experience</h2>
+        <div class="experience-card green">
+            <div class="exp-header">
+                <p class="date">Sep. 2024 - Jan 2025</p>
+                <span class="tag">Most Recent</span>
+            </div>
+            <h3>Customer Service Representative</h3>
+            <p class="company">Amazon | Full-time</p>
             <ul>
                 <li>Support customers, drivers and Delivery Service Partners to ensure successful deliveries</li>
                 <li>Prevent issues and solve customer queries through phone, email or chat.</li>
-            </ul>
-        </article>
-        <section class="experience">
-            <article class="experience-card latest">
-                <h3 class="dates">Sep 2023 - July 2024</h3>
-                <p class="role">Quality Assessor</p>
-                <p class="company-name">Liberty | Full-time</p>
-                <ul>
-                    <li>Enhance the customer experience journey by quality assessing call center interactions(calls), enable low risk and zero surprises BAU and producing reports</li>
-                    <li>Contribute towards continuous improvement initiatives to improve compliance, processes, systems and skills</li>
-                </ul>
-            </article>
-            <section class="experience">
-                <article class="experience-card latest">
-                    <h3 class="dates">Feb 2023 - Sept 2023</h3>
-                    <p class="role">Sales Agent</p>
-                    <p class="company-name">Liberty | Full-time</p>
-                    <ul>
-                        <li>Conduct outbound calls in a professional manner, ensuring excellent and accurate client service</li>
-                        <li>Sell the company's Life Insurance and Services to potential customers</li>
-                    </ul>
-                </article>
+        </div>
 
-                <!--Footer Section: Contact Information-->
-                <footer class="contact">
-                    <h2>Let's chat! I'm ready to work on exciting projects.</h2>
-                    <p>
-                        <a href="mailto:andajonas63@gmail.com">andajonas63@gmail.com</a> |
-                        <a href="tel:+27655461522"> 065 546 1522</a> |
-                        <a href="https://www.linkedin.com/in/anda-jonas/" target="_blank" rel="noopener noreferrer">LinkedIn</a> |
-                        <a href="https://github.com/andajonas" target="_blank" rel="noopener noreferrer"> GitHub</a>
-                    </p>
-                </footer>
-            
-            </body>
-            </html>     
+        <div class="experience-card">
+            <p class="date">Sept. 2023 - Jul. 2024</p>
+            <h3>Quality Assesor</h3>
+            <p class="company">Liberty | Full-time</p>
+            <ul>
+                <li>Enhance the customer experience journey by quality assessing call center interactions(calls), enable low risk and zero surprises BAU and producing reports</li>
+                <li>Contribute towards continuous improvement initiatives to improve compliance, processes, systems and skills</li>
+            </ul>
+        </div>
+        <div class="experience-card">
+            <p class="date">Feb. 2023 - Sept. 2023</p>
+            <h3>Sales Agent | Insurance</h3>
+            <p class="company">Liberty | Full-time</p>
+            <ul>
+                <li>Conduct outbound calls in a professional manner, ensuring excellent and accurate client service</li>
+                <li>Sell the company's Life Insurance and Services to potential customers</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact">
+        <p class="contact-text">Let's chat! I'm ready to work on exciting projects.</p>
+        <p class="contact-links">
+            <a href="mailto:andajonas63@gmail.com">andajonas63@gmail.com</a> |
+            <a href="tel:+27655461522"> 065 546 1522</a> |
+            <a href="https://www.linkedin.com/in/anda-jonas/" target="_blank" rel="noopener noreferrer">LinkedIn</a> |
+            <a href="https://github.com/andajonas" target="_blank" rel="noopener noreferrer"> GitHub</a>
+        </p>
+    </section>
+</div>
+
+</body>
+</html>
+
+
+
 
