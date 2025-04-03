@@ -81,7 +81,7 @@ body {
 }
 
 .project-card {
-    background: #f3f3f3;
+    background: #4A8B70;
     padding: 10px;
     border-radius: 5px;
     margin-bottom: 10px;
@@ -95,7 +95,7 @@ body {
 }
 
 .education-card {
-    background: #f3f3f3;
+    background: #f3f3;
     padding: 10px;
     border-radius: 5px;
     margin-bottom: 10px;
@@ -115,6 +115,10 @@ body {
     margin-bottom: 10px;
 }
 
+.green {
+    background: #d5f5e3;
+    border-left: 5px solid #4caf50;
+}
 
 .tag {
     background: #ff6347;
@@ -122,18 +126,12 @@ body {
     padding: 3px 6px;
     border-radius: 5px;
 }
-.project-card:first-of-type,
-.education-card:first-of-type,
-.experience-card:first-of-type {
-    background: #4A8B70; 
-    color: white;
-}
 
 /* Contact Section */
 .contact {
     background: #d35d36;
     color: white;
-    text-align: flex-start;
+    text-align: center;
     padding: 15px;
     border-radius: 10px;
 }

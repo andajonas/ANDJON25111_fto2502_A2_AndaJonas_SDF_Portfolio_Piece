@@ -126,14 +126,14 @@ body {
 .education-card:first-of-type,
 .experience-card:first-of-type {
     background: #4A8B70; 
-    color: white;
+    color
 }
 
 /* Contact Section */
 .contact {
     background: #d35d36;
     color: white;
-    text-align: flex-start;
+    text-align: center;
     padding: 15px;
     border-radius: 10px;
 }
