@@ -100,7 +100,7 @@ body {
     border-radius: 5px;
     margin-bottom: 10px;
 }
-/* Tools Section */
+
 
 .tools {
     background: white;
@@ -175,8 +175,6 @@ body {
     font-weight: bold;
     text-decoration: none;
 }
-
-/* Media Queries */
 @media (max-width: 768px) {
     .container {
         padding: 10px;
