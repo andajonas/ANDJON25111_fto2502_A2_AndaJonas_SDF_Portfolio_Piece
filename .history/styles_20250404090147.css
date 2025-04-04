@@ -101,37 +101,6 @@ body {
     margin-bottom: 10px;
 }
 
-.tools {
-    background: white;
-    padding: 15px;
-    border-radius: 10px;
-    text-align: center;
-}
-
-.tool-categories {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-}
-
-.tool-category h3 {
-    font-size: 18px;
-    color: black;
-    margin-bottom: 10px;
-}
-
-.tool-icons {
-    display: flex;
-    justify-content: center;
-    gap: 15px;
-}
-
-.tool-icons img {
-    width: 40px;
-    height: 40px;
-}
-
-
 /* Experience Section */
 .experience {
     background: white;
